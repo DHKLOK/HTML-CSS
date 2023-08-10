@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <form action="index.php" method="post">
+    <form action="index.php" method="post" enctype="multipart/form-data">
         <label for="username">Username</label>
         <input id="username" type="text" minlength="6" maxlength="15" placeholder="Username" required><br>
 
@@ -39,7 +39,7 @@
 
 
         <label for="Payment">payment</label>
-        <select>
+        <select id="payment">
             <option value="Visa">Visa</option>
             <option value="Mastercard">Mastercard</option>
             <option value="Giftcard">GiftCard</option>
@@ -47,6 +47,14 @@
 
         <label for="Subscribe">Subscribe</label>
         <input type="checkbox" id="Subscribe"><br>
+        
+        <label for="comment">comment</label>
+        <textarea id="comment" rows="3" cols="25"></textarea><br>
+
+        <label for ="file">File</label>
+        <input type="file" id="file" accept="png,jpeg"><br>
+
+
         <input type="submit"><input type="reset">
 
 
