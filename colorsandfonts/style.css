@@ -1,17 +1,29 @@
+@font-face{
+    src: url(colorsandfonts\robot.ttf);
+    font-family: bing-chilling;
+
+}
+
+
+
 body {
     background-color: #F7F496;
 }
 #p1{
     color:tomato;
     font-size: 30px;
+    font-family: bing-chilling;
+
 }
 #p2{
     color:rgb(185,124,246);
     font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 #p3{
     color:#1B7D14;
     font-size:30px;
+    font-family:fantasy;
 }
 #p4{
     color:#c22b2b1a;
