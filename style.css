@@ -11,6 +11,12 @@
     font-family:bing-chilling;
     font-style: bold;
     border-style: double;
+    border-width: 3px;
+    border-color:blueviolet;
+    border-radius: 5px;
+    
+
+
 }
 
 #pre2{
