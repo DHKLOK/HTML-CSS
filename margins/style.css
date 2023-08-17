@@ -1,0 +1,25 @@
+body{
+    margin:0px;
+}
+
+.box{
+    border:5px solid;
+    font-size: 5em;
+    width:250px;
+    width:250px;
+ 
+
+}
+
+#box1{
+    background-color: rgb(224, 99, 99);
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+#box2{
+    background-color: rgb(108, 108, 189);
+    margin:auto;
+
+}
+
